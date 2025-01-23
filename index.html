@@ -11,7 +11,7 @@
 
 
 
-<body class="bg-primary">
+<body class="bg-info">
     <div class="container">
         <header class="my-3">
             <h1 class="text-center text-white">Join Our Team</h1>
@@ -21,7 +21,30 @@
         <main id="dinamicCard" class="row">
 
         </main>
+        <form class="text-center">
+            <div class="mb-3 col-md-6 mx-auto">
+                <label for="name" class="form-label ">Nome</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3 col-md-6 mx-auto">
+                <label for="role" class="form-label">Ruolo</label>
+                <input type="text" class="form-control" id="role">
+            </div>
+            <div class="mb-3 col-md-6 mx-auto">
+                <label for="img" class="form-label ">Percorso Immagine</label>
+                <input type="text" class="form-control" id="img">
+            </div>
+            <div class="mb-3 col-md-6 mx-auto">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Non condivideremo la tua email con nessun altro</div>
+            </div>
+
+            <button id="btn" type="submit" class="btn btn-primary">Invia</button>
+
+        </form>
     </div>
+
 
 
     <script src="./script.js"></script>
